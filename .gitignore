@@ -4,3 +4,10 @@ __pycache__/
 *.pyc
 .streamlit/secrets.toml
 .env
+.pytest_cache/
+*.log
+.DS_Store
+# local-only docs (analyses, guides, AI context) — never commit
+*.md
+# local-only design artifact (static mockup superseded by heartcare-web/)
+mockup-results.html

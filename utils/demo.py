@@ -1,0 +1,41 @@
+"""Demo presets for classroom use (no real patient data)."""
+
+HEALTHY_DEMO = {
+    "age": 32,
+    "sex_label": "Female",
+    "cp_label": "Non-anginal pain",
+    "trestbps": 118,
+    "chol": 185,
+    "fbs_label": "No",
+    "restecg_label": "Normal",
+    "thalach": 172,
+    "exang_label": "No",
+    "oldpeak": 0.4,
+    "slope_label": "Upsloping",
+    "ca_label": "0",
+    "thal_label": "Normal",
+    "smoking": "Never",
+    "activity": "High",
+    "family_history": "No",
+    "known_bp_history": "No",
+}
+
+AT_RISK_DEMO = {
+    "age": 58,
+    "sex_label": "Male",
+    "cp_label": "Asymptomatic",
+    "trestbps": 152,
+    "chol": 289,
+    "fbs_label": "Yes",
+    "restecg_label": "ST-T wave abnormality",
+    "thalach": 112,
+    "exang_label": "Yes",
+    "oldpeak": 2.8,
+    "slope_label": "Flat",
+    "ca_label": "2",
+    "thal_label": "Reversible defect",
+    "smoking": "Current",
+    "activity": "Low",
+    "family_history": "Yes",
+    "known_bp_history": "Yes",
+}
